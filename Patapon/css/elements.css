@@ -1,0 +1,133 @@
+:root {
+    --border-style: none;
+    --path-main-page: "../../main_page.html";
+}
+
+
+
+body {
+    background: #f8feff;
+    font-family: 'league gothic',helvetica,serif;
+}
+
+
+a {
+	text-decoration: none;
+    color: black;
+	transition: opacity 250ms linear;
+}
+
+a:not(:hover) {
+	opacity: .5;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+
+
+.header_area {
+    border: var(--border-style);
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.header_area a {
+    margin-left: 20px;
+}
+
+
+
+.task_bar_area {
+    border: var(--border-style);
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+.task_bar_body {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 30px 0 50px;
+}
+
+#searchbox {
+    font-size: 16px;
+    padding: 5px;
+    width: calc(25%);
+}
+
+#search_confirm {
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+
+.help_area {
+    border: var(--border-style);
+    position: relative;
+    padding: 10px;
+}
+
+.help_area ul {
+    border: var(--border-style);
+    background: #ecf6ff;
+    font-size: 26px;
+}
+
+.help_area ul li {
+    font-size: 20px;
+}
+.help_area ul li:not(:hover) .choose{
+    opacity: .0;
+}
+.help_area ul li:hover .choose{
+    opacity: 1;
+}
+
+.choose {
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+    transition: opacity 250ms linear;
+}
+
+
+
+.manual_area {
+    border: var(--border-style);
+    background: #ecf6ff;
+    position: relative;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.manual_area h1 {
+    font-size: 30px;
+}
+
+.manual_area p {
+    font-size: 20px;
+}
+
+
+#rezult h1 {
+    font-size: 30px;
+}
+
+#rezult li {
+    font-size: 20px;
+}
+
+#rezult li:not(:hover) .choose {
+    opacity: .0;
+}
+
+#rezult li:hover .choose {
+    opacity: 1;
+}
